@@ -9,7 +9,7 @@ body {
 }
 
 #product-overview {
-  background: url("assets/freedom.jpg");
+  background: url("../assets/freedom.jpg");
   width: 100%;
   height: 528px;
   padding: 10px;
@@ -75,85 +75,45 @@ body {
   margin: 8px 0;
 }
 
-.button {
-  background-color: #0e4f1f;
+#key-features {
+  background-color: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
   color: #fff;
-  font: inherit;
-  border: 1.5px solid #0e4f1f;
-  padding: 8px;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
+  margin: 32px;
 }
 
-.button:hover,
-.button:active {
-  background-color: #fff;
-  color: #0e4f1f;
-}
-div > p {
-  color: red;
-}
-
-.main-header {
-  background-color: #2ddf5c;
-  padding: 8px 16px;
-  width: 100%;
-}
-
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-header__brand {
-  color: #0e4f1f;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(99% - 74px);
-  vertical-align: middle;
-}
-
-.main-nav__items {
+.key-feature__list {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none; /* Padding removes the bullet points by default, however ensuring they are removed*/
+  text-align: center;
 }
 
-.main-nav__item {
+.key-feature {
   display: inline-block;
-  margin: 0 16px;
+  width: 30%;
+  vertical-align: top;
 }
 
-.main-nav__item a {
-  text-decoration: none;
-  color: #0e4f1f;
+.key-feature__image {
+  background: #ffccde;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.key-feature__description {
+  text-align: center;
   font-weight: bold;
-  padding: 3px;
+  color: #fff;
+  font-size: 20px;
 }
 
-.main-nav__item a:hover,
-.main-nav__item a:active {
-  color: white;
-  border-bottom: 2px solid white;
-}
-
-.main-nav__item--cta a {
-  color: white;
-  background: #ff1b68;
-  padding: 8px 16px;
-  border-radius: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-  color: #ff1b68;
-  background-color: white;
-  border: none; /* Resolves the conflict and overwrites all border settings */
+div > p {
+  color: red;
 }
