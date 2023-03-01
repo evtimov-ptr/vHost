@@ -9,7 +9,7 @@ body {
 }
 
 .main-header {
-  background-color: #2ddf5c;
+  background-color: #0d6efd;
   padding: 8px 16px;
   width: 100%;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .main-header__brand {
-  color: #0e4f1f;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
@@ -46,7 +46,7 @@ body {
 
 .main-nav__item a {
   text-decoration: none;
-  color: #0e4f1f;
+  color: #fff;
   font-weight: bold;
   padding: 3px;
 }
@@ -66,7 +66,7 @@ body {
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-  color: #ff1b68;
+  color: #0d6efd;
   background-color: white;
   border: none; /* Resolves the conflict and overwrites all border settings */
 }
@@ -100,10 +100,10 @@ body {
 }
 
 .button {
-  background-color: #0e4f1f;
-  color: #fff;
+  background-color: #fff;
+  color: #0d6efd;
   font: inherit;
-  border: 1.5px solid #0e4f1f;
+  border: 1.5px solid #0d6efd;
   padding: 8px;
   border-radius: 8px;
   font-weight: bold;
@@ -112,8 +112,8 @@ body {
 
 .button:hover,
 .button:active {
-  background-color: #fff;
-  color: #0e4f1f;
+  background-color: #0d6efd;
+  color: #fff;
 }
 
 .button:focus {
